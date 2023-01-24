@@ -90,7 +90,11 @@ It'll look weird, if the default css is still there
 
 ```bash
 npx sb init --builder webpack5
-npm install --save-dev storybook-addon-next
+# npm install --save-dev storybook-addon-next
+
+npm install --save-dev @storybook/nextjs
+
+npx storybook@next upgrade --prerelease
 
 ```
 
